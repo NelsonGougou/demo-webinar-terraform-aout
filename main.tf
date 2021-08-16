@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 module "s3_bucket" {
-    source = "git:https://github.com/NelsonGougou/module-terraform-aws-s3-web-hosting.git"
+    source = "git::https://github.com/NelsonGougou/module-terraform-aws-s3-web-hosting.git"
     bucket_name = var.bucket_name
     
 }
